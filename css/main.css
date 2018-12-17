@@ -3,21 +3,59 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
+  font-family: "Open Sans";
+}
+
+header, footer {
+  width: 100%;
+  padding: 1rem 0;
 }
 
 header {
-  width: 100%;
+  border-bottom: solid 1px lightgrey;
+  margin-bottom: 1rem;
 }
 
-header h1 {
+header p, footer p {
   margin: 0 auto;
+  font-size: 18px;
   width: fit-content;
+}
+
+figure {
+  margin: 0;
 }
 
 main {
   width: 100%;
 }
 
+main section {
+  padding: 0 1rem;
+}
+
 main * {
-  width: 100%;
+  max-width: 100%;
+}
+
+footer {
+  border-top: solid 1px lightgrey;
+  margin-top: 1rem;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 800px) {
+
+  main {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  main section {
+    padding: 0;
+  }
+
 }
