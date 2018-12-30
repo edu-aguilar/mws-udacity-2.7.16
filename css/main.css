@@ -16,7 +16,7 @@ header {
   margin-bottom: 1rem;
 }
 
-header p, footer p {
+header p, footer p, header .social {
   margin: 0 auto;
   font-size: 18px;
   width: fit-content;
